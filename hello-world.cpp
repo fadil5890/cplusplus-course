@@ -1,7 +1,9 @@
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World\n";
-    system("pause>0");
+    cout << "Hello World\n";
+    cout << "My Name is Fadil"<<endl;
+    cout << "I'm 19 years old";
 }
