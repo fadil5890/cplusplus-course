@@ -3,8 +3,12 @@ using namespace std;
 
 int main()
 {
-    float monthlySalary = 5499999.99;
+    float monthlySalary;
+    cout << "Please enter your monthly salary\n";
+    cout << "Monthly salary : ";
+    cin >> monthlySalary;
     float dailySalary = monthlySalary / 30;
-    cout << "Your daily salary is " << dailySalary;
+    cout << "Your daily salary is " << dailySalary <<endl;
+    cout << fixed <<"In a Year, you will earn :" << monthlySalary * 12;
     system("pause>0");
 }
